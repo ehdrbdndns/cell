@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+}
+
+.aside{
+    width: 14%;
+    height: 500px;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.aside__iconBox{
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.aside__icon{
+    font-size: 23px;
+}
+
+.aside__badge{
+    position: absolute;
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+    padding: 2px 4px;
+    font-size: 13px;
+    right: -16px;
+    top: -11px;
+}
+
+.friends{
+    width: 86%;
+    padding: 0px 20px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__name{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.header__icon{
+    font-size: 23px;
+}
+
+.header__icon:nth-child(1){
+    margin-right: 13px;
+}
+
+.footer{
+    width: 100%;
+    height: 130px;
+    background-color: red;
+}
+
